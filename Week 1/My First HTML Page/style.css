@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* A light gray background color */
+    color: #333; /* Default text color */
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info{
+    
+    border: 2px solid #333; /* Border color */
+    border-radius: 10px; /* Border radius */
+    padding: 20px;
+    margin: 20px auto;
+     max-width: 600px;
+    
+}
+.info p {
+    margin: 10px 0; /* Add some vertical spacing between paragraphs */
+}
+
+.info i {
+    font-style: italic;
+}
+
+.info b {
+    font-weight: bold;
+}
+
+.info strong {
+    font-weight: bold;
+}
+
+.info em {
+    font-style: italic;
+}
+
+.mylanguage {
+   
+    border: 1px solid #ccc; /* Border color */
+    padding: 20px; 
+    width: 300px; 
+    margin: 20px auto; 
+}
+
+/* Styles for the heading */
+.mylanguage h3 {
+    margin-top: 0; 
+    text-align: center; 
+}
+
+/* Styles for the ordered list */
+.mylanguage ol {
+    list-style-type: decimal; 
+    margin: 10px 0; 
+    padding-left: 20px; 
+}
+
+/* Styles for list items */
+.mylanguage li {
+    margin: 5px 0; 
+}
+.hobbies {
+    text-align: center;
+}
+
+/* Styles for each hobby div */
+.hobbies div {
+    width: 400px; /* Set the width of each hobby div */
+    margin: 20px auto; /* Center the hobby divs horizontally */
+    padding: 10px; /* Add padding to create some spacing around each hobby */
+    border: 1px solid #ccc; /* Adding a border around each hobby */
+}
+
+/* Styles for the images */
+.hobbies img {
+    display: block;
+    margin: 10px auto; /* Center the images horizontally within each hobby */
+    max-width: 100%; /* Set the maximum width of the images */
+}
+
+/* Styles for the list items */
+.hobbies li {
+    list-style: none;
+    margin: 10px 0; /* Add spacing between each hobby's text and image */
+}
+/* Table styles */
+table {
+    width: 80%; 
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px; 
+    text-align: center; /* Center align text within cells */
+    border: 2px solid #333; /* Adding a border to cells */
+}
+
+th {
+    background-color: #555; 
+    color: white; 
+}
+
+/* Row styles */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tr:hover {
+    background-color: #ddd; /* Hover background color for rows */
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
